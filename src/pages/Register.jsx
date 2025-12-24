@@ -46,11 +46,11 @@ const Register = () => {
                 </h1>
 
                 <div className='space-y-6 mt-8'>
-                    <Input label="Full Name" required onChange={e => handleChange('name', e.target.value)} />
-                    <Input label="Phone Number" required onChange={e => handleChange('phone', e.target.value)} />
-                    <Input label="Email Address" required onChange={e => handleChange('email', e.target.value)} />
-                    <Input label="Password" required type="password" onChange={e => handleChange('password', e.target.value)} />
-                    <Input label="Company Name" onChange={e => handleChange('company', e.target.value)} />
+                    <Input label="Full Name" placeholder="Enter full name" required onChange={e => handleChange('name', e.target.value)} />
+                    <Input label="Phone Number" placeholder="Enter phone number" required onChange={e => handleChange('phone', e.target.value)} />
+                    <Input label="Email Address" placeholder="Enter email address" required onChange={e => handleChange('email', e.target.value)} />
+                    <Input label="Password" placeholder="Enter password" required type="password" onChange={e => handleChange('password', e.target.value)} />
+                    <Input label="Company Name" placeholder="Enter company name" onChange={e => handleChange('company', e.target.value)} />
                 </div>
 
                 <div className='mt-6'>
