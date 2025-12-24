@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #6c25ff;
+    --color-secondary: #cebafb;
+    --color-base: #f7f8f9;
+    --font-inter: "Inter", "sans-serif";
+}
+
+body {
+    font-family: 'Rubik';
+    background-color: #FFFFFF;
+}
